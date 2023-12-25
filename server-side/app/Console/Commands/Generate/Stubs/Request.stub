@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Http\Requests\{{parentFolder}}\{{classNamespace}};
+
+use App\Http\Requests\Base\{{baseClass}};
+
+class {{className}}Request extends {{baseClass}}
+{
+    public function rules(): array
+    {
+        return [
+            // Define your validation rules here
+        ];
+    }
+
+    public function messages(): array
+    {
+        return [
+            // Define your custom validation messages here
+        ];
+    }
+}

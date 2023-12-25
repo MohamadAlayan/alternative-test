@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Repositories\{{classNamespace}};
+
+use App\Models\{{classNamespace}}\{{class}};
+use App\Repositories\Base\BaseRepository;
+
+class {{class}}Repository extends BaseRepository
+{
+    public $model = {{class}}::class;
+
+}
